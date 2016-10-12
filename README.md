@@ -1,3 +1,14 @@
+My NPM user: https://www.npmjs.com/~joel.binnquist
+
+Flow
+---
+1. Make update
+2. Commit
+3. npm version [major|minor|patch]
+4. npm publish
+
+References
+----------
 See
 - https://docs.npmjs.com/getting-started/publishing-npm-packages
 - https://docs.npmjs.com/misc/developers
