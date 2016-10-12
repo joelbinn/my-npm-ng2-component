@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
     <h1>JB Hello</h1>
   `
 })
-export class About {
+export class HelloComponent {
   constructor() {}
 }
