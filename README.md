@@ -2,6 +2,7 @@ My NPM user: https://www.npmjs.com/~joel.binnquist
 
 Creating a distributable NG2 component
 The following was done to create this distributable NPM module:
+
 1. npm init
 2. add dependencies to package.json (see the file)
 3. add tsconfig.json (see the file)
