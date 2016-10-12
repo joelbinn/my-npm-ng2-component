@@ -1,11 +1,21 @@
 My NPM user: https://www.npmjs.com/~joel.binnquist
 
-Flow
----
-1. Make update
+Creating a distributable NG2 component
+The following was done to create this distributable NPM module:
+1. npm init
+2. add dependencies to package.json (see the file)
+3. add tsconfig.json (see the file)
+4. install typings
+5. add .npmignore which excludes files that shall not be published
+6. implement an NG2 component (src/hello.component.ts)
+7. implement index.ts, which defines a NG2 module and exports it together with the component.
+
+Publishing flow
+---------------
+1. Do some code update
 2. Commit
-3. npm version [major|minor|patch]
-4. npm publish
+3. Do `npm version [major|minor|patch]`
+4. Do `npm publish`
 
 References
 ----------
