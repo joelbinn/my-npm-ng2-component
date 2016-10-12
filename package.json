@@ -4,15 +4,17 @@
   "description": "My example NG2 component that is published on NPM",
   "main": "index.js",
   "scripts": {
+    "rebuild":"npm run clean && npm run build",
+    "build":"tsc",
     "clean": "rimraf ./index.d.ts && rimraf ./index.js && rimraf ./index.js.map && rimraf ./src/**/*.d.ts && rimraf ./src/**/*.js && rimraf ./src/**/*.js.map",
-    "prepublish": "tsc",
+    "prepublish": "npm run rebuild",
     "typings": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joel.binnquist@cag.se",
   "license": "Unlicense",
   "repository": "https://github.com/joelbinn/my-npm-ng2-component.git",
-  "dependencies": {
+  "peerDependencies": {
     "@angular/common": "~2.0.2",
     "@angular/core": "~2.0.2",
     "@angular/forms": "~2.0.2",
