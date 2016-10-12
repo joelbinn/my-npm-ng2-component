@@ -4,7 +4,7 @@ Creating a distributable NG2 component
 The following was done to create this distributable NPM module:
 
 1. npm init
-2. add dependencies to package.json (see the file)
+2. add dependencies to package.json (see the file); note usage of peerDependencies.
 3. add tsconfig.json (see the file)
 4. install typings
 5. add .npmignore which excludes files that shall not be published
