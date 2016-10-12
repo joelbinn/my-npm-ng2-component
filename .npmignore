@@ -1,0 +1,9 @@
+# Node generated files
+node_modules
+
+# OS generated files
+Thumbs.db
+
+# Ignored files
+*.ts
+!*.d.ts
