@@ -1,5 +1,5 @@
 {
-  "name": "my-npm-ng2-component",
+  "name": "@joelabs/my-npm-ng2-component",
   "version": "1.0.8",
   "description": "My example NG2 component that is published on NPM",
   "main": "index.js",
