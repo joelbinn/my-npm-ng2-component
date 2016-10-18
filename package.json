@@ -8,20 +8,21 @@
     "build": "tsc",
     "clean": "rimraf ./index.d.ts && rimraf ./index.js && rimraf ./index.js.map && rimraf ./src/**/*.d.ts && rimraf ./src/**/*.js && rimraf ./src/**/*.js.map",
     "prepublish": "npm run rebuild",
+    "preinstall": "npm prune",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joel.binnquist@cag.se",
   "license": "Unlicense",
   "repository": "https://github.com/joelbinn/my-npm-ng2-component.git",
   "dependencies": {
-    "@angular/common": "~2.0.2",
-    "@angular/core": "~2.0.2",
-    "@angular/forms": "~2.0.2",
-    "@angular/http": "~2.0.2",
-    "@angular/platform-browser": "~2.0.2",
+    "@angular/common": "^2.1.0",
+    "@angular/core": "^2.1.0",
+    "@angular/forms": "^2.1.0",
+    "@angular/http": "^2.1.0",
+    "@angular/platform-browser": "^2.1.0",
+    "@reactivex/rxjs": "^5.0.0-beta.12",
     "core-js": "^2.4.1",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "5.0.0-beta.12",
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
