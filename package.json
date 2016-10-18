@@ -14,7 +14,7 @@
   "author": "joel.binnquist@cag.se",
   "license": "Unlicense",
   "repository": "https://github.com/joelbinn/my-npm-ng2-component.git",
-  "peerDependencies": {
+  "dependencies": {
     "@angular/common": "~2.0.2",
     "@angular/core": "~2.0.2",
     "@angular/forms": "~2.0.2",
