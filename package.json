@@ -7,7 +7,7 @@
     "rebuild": "npm run clean && npm run build",
     "build": "tsc",
     "clean": "rimraf ./index.d.ts && rimraf ./index.js && rimraf ./index.js.map && rimraf ./src/**/*.d.ts && rimraf ./src/**/*.js && rimraf ./src/**/*.js.map",
-    "prepublish": "npm prune && npm install && npm run rebuild",
+    "prepublish": "npm run rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joel.binnquist@cag.se",
