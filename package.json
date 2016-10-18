@@ -8,7 +8,6 @@
     "build": "tsc",
     "clean": "rimraf ./index.d.ts && rimraf ./index.js && rimraf ./index.js.map && rimraf ./src/**/*.d.ts && rimraf ./src/**/*.js && rimraf ./src/**/*.js.map",
     "prepublish": "npm run rebuild",
-    "typings": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joel.binnquist@cag.se",
@@ -27,8 +26,7 @@
   },
   "devDependencies": {
     "rimraf": "^2.5.4",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "typescript": "^2.0.3"
   },
   "typings": "./index.d.ts"
 }
